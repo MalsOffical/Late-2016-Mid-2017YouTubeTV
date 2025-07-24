@@ -1150,49 +1150,59 @@ p {
   z-index: 1
 }
 
-#player-controls .button,
-#player-controls .toggle-button {
-  font-family: 'youtube-icons';
-  speak: none
+#player-controls .button,#player-controls .toggle-button {
+    font-family: 'youtube-icons';
+    speak: none
 }
 
 .fps {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  padding-top: 0.3em;
-  width: 5em;
-  height: 1.7em;
-  background-color: #0f0;
-  z-index: 100
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    text-align: center;
+    padding-top: 0.3em;
+    width: 5em;
+    height: 1.7em;
+    background-color: #0f0;
+    z-index: 100
+}
+
+.ui-metrics {
+    background-color: #0ff;
+    height: 1.9em;
+    padding-left: 0.5em;
+    padding-top: 0.6em;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    top: 0;
+    width: 24em;
+    z-index: 100
+}
+
+.webp-debug {
+    border: 1em #090 solid
 }
 
 #html5-player-messages {
-  display: none
+    display: none
 }
 
 #button-list>.icon-player-more:before {
-  content: "\00e632"
-}
-
-.icon-player-play.toggle-selected:before {
-  content: "\00e635"
+    content: "\00e91b"
 }
 
 #loader {
-  z-index: 1000
+    z-index: 1000
 }
 
-.sliding-highlighter,
-.pivot-sliding-highlighter,
-.subs-sliding-highlighter {
-  background: #fff;
-  box-shadow: 0 0 60px rgba(153, 153, 153, .3);
-  display: none;
-  height: 26em;
-  position: absolute;
-  width: 24em
+.pivot-sliding-highlighter,.subs-sliding-highlighter {
+    background: #fff;
+    box-shadow: 0 0 60px rgba(153,153,153,.3);
+    display: none;
+    height: 26em;
+    position: absolute;
+    width: 24em
 }
 
 .subs-horizontal-list.channel-selected .subs-sliding-highlighter {
