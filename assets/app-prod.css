@@ -1,505 +1,581 @@
-.icon-bug_report:before {
-  content: "\00e900"
+.icon-account_circle:before {
+    content: "\00e900"
 }
 
-.icon-youtube-unlimited-logo:before {
-  content: "\00e67a"
-}
-
-.icon-settings-stats-android:before {
-  content: "\00e67c"
-}
-
-.icon-settings-about-android:before {
-  content: "\00e67b"
-}
-
-.icon-mr_meh_android:before {
-  content: "\00e677"
-}
-
-.icon-cast_off:before {
-  content: "\00e675"
-}
-
-.icon-cast_on:before {
-  content: "\00e676"
-}
-
-.icon-settings-signin-android:before {
-  content: "\00e678"
-}
-
-.icon-settings-signout-android:before {
-  content: "\00e679"
-}
-
-.icon-roku-back:before {
-  content: "\00e674"
-}
-
-.icon-hats-happy:before {
-  content: "\00e66f"
-}
-
-.icon-hats-neutral:before {
-  content: "\00e670"
-}
-
-.icon-hats-sad:before {
-  content: "\00e671"
-}
-
-.icon-hats-very-happy:before {
-  content: "\00e672"
-}
-
-.icon-hats-very-sad:before {
-  content: "\00e673"
-}
-
-.icon-search-keyboard:before {
-  content: "\00e66e"
-}
-
-.icon-multiaudio:before {
-  content: "\00e62d"
-}
-
-.icon-settings-check:before {
-  content: "\00e66d"
-}
-
-.icon-settings-uncheck:before {
-  content: "\00e659"
-}
-
-.icon-popular:before {
-  content: "\00e66c"
+.icon-account-circle:before {
+    content: "\00e901"
 }
 
 .icon-airplane:before {
-  content: "\00e600"
+    content: "\00e902"
 }
 
 .icon-back:before {
-  content: "\00e601"
+    content: "\00e903"
+}
+
+.icon-beauty:before {
+    content: "\00e904"
+}
+
+.icon-bug_report:before {
+    content: "\00e905"
+}
+
+.icon-cast_off:before {
+    content: "\00e906"
+}
+
+.icon-cast_on:before {
+    content: "\00e907"
+}
+
+.icon-check-circle:before {
+    content: "\00e908"
 }
 
 .icon-check:before {
-  content: "\00e602"
+    content: "\00e909"
+}
+
+.icon-chevron-down:before {
+    content: "\00e90a"
+}
+
+.icon-chevron-left:before {
+    content: "\00e90b"
+}
+
+.icon-chevron-right:before {
+    content: "\00e90c"
 }
 
 .icon-chevron-single:before {
-  content: "\00e603"
+    content: "\00e90d"
+}
+
+.icon-chevron-up:before {
+    content: "\00e90e"
+}
+
+.icon-close:before {
+    content: "\00e90f"
+}
+
+.icon-comedy:before {
+    content: "\00e910"
 }
 
 .icon-delete:before {
-  content: "\00e604"
+    content: "\00e911"
 }
 
 .icon-desktop-arrowkeys:before {
-  content: "\00e605"
+    content: "\00e912"
 }
 
 .icon-desktop-delete:before {
-  content: "\00e606"
+    content: "\00e913"
 }
 
 .icon-desktop-esc:before {
-  content: "\00e607"
+    content: "\00e914"
 }
 
 .icon-desktop-g:before {
-  content: "\00e608"
+    content: "\00e915"
 }
 
 .icon-desktop-s:before {
-  content: "\00e609"
+    content: "\00e916"
 }
 
 .icon-dislike:before {
-  content: "\00e60a"
+    content: "\00e917"
 }
 
 .icon-double-chevron-right:before {
-  content: "\00e60b"
+    content: "\00e918"
 }
 
 .icon-edit:before {
-  content: "\00e60c"
+    content: "\00e919"
 }
 
 .icon-education:before {
-  content: "\00e60d"
+    content: "\00e91a"
 }
 
 .icon-ellipsis:before {
-  content: "\00e60e"
+    content: "\00e91b"
 }
 
 .icon-entertainment:before {
-  content: "\00e60f"
+    content: "\00e91c"
+}
+
+.icon-error:before {
+    content: "\00e91d"
 }
 
 .icon-exit:before {
-  content: "\00e610"
+    content: "\00e91e"
 }
 
 .icon-film:before {
-  content: "\00e611"
+    content: "\00e91f"
 }
 
 .icon-flag:before {
-  content: "\00e612"
+    content: "\00e920"
+}
+
+.icon-folder:before {
+    content: "\00e921"
+}
+
+.icon-food:before {
+    content: "\00e922"
 }
 
 .icon-gaming:before {
-  content: "\00e613"
+    content: "\00e923"
 }
 
 .icon-guide-history:before {
-  content: "\00e614"
+    content: "\00e924"
 }
 
 .icon-guide-my-subs:before {
-  content: "\00e615"
+    content: "\00e925"
 }
 
 .icon-guide-purchases:before {
-  content: "\00e616"
+    content: "\00e926"
 }
 
 .icon-guide-social:before {
-  content: "\00e617"
+    content: "\00e927"
 }
 
 .icon-guide-what-to-watch:before {
-  content: "\00e618"
+    content: "\00e928"
+}
+
+.icon-hats-happy:before {
+    content: "\00e929"
+}
+
+.icon-hats-neutral:before {
+    content: "\00e92a"
+}
+
+.icon-hats-sad:before {
+    content: "\00e92b"
+}
+
+.icon-hats-very-happy:before {
+    content: "\00e92c"
+}
+
+.icon-hats-very-sad:before {
+    content: "\00e92d"
+}
+
+.icon-history:before {
+    content: "\00e92e"
 }
 
 .icon-home:before {
-  content: "\00e619"
+    content: "\00e92f"
 }
 
 .icon-hourglass:before {
-  content: "\00e61a"
+    content: "\00e930"
 }
 
 .icon-key-delete:before {
-  content: "\00e61b"
+    content: "\00e931"
 }
 
 .icon-key-globe:before {
-  content: "\00e61c"
+    content: "\00e932"
 }
 
 .icon-key-space-sm:before {
-  content: "\00e61d"
+    content: "\00e933"
 }
 
 .icon-key-space:before {
-  content: "\00e61e"
+    content: "\00e934"
 }
 
 .icon-like:before {
-  content: "\00e61f"
+    content: "\00e935"
 }
 
 .icon-lips:before {
-  content: "\00e620"
+    content: "\00e936"
 }
 
 .icon-logo-lozenge:before {
-  content: "\00e621"
+    content: "\00e937"
 }
 
 .icon-lol:before {
-  content: "\00e622"
+    content: "\00e938"
 }
 
 .icon-lozenge:before {
-  content: "\00e623"
+    content: "\00e939"
+}
+
+.icon-mic:before {
+    content: "\00e93a"
 }
 
 .icon-mix:before {
-  content: "\00e624"
+    content: "\00e93b"
+}
+
+.icon-mr_meh_android:before {
+    content: "\00e93c"
+}
+
+.icon-multiaudio:before {
+    content: "\00e93d"
 }
 
 .icon-music:before {
-  content: "\00e625"
+    content: "\00e93e"
 }
 
 .icon-news:before {
-  content: "\00e626"
+    content: "\00e93f"
 }
 
 .icon-people:before {
-  content: "\00e627"
+    content: "\00e940"
 }
 
 .icon-pets:before {
-  content: "\00e628"
+    content: "\00e941"
 }
 
 .icon-player-3d:before {
-  content: "\00e629"
+    content: "\00e942"
 }
 
 .icon-player-annotations:before {
-  content: "\00e62a"
+    content: "\00e943"
 }
 
 .icon-player-closedcaptions:before {
-  content: "\00e62b"
+    content: "\00e944"
 }
 
 .icon-player-ff:before {
-  content: "\00e62c"
+    content: "\00e945"
 }
 
 .icon-player-HD-circle:before {
-  content: "\00e651"
+    content: "\00e946"
 }
 
 .icon-player-HD:before {
-  content: "\00e62e"
+    content: "\00e947"
 }
 
 .icon-player-info:before {
-  content: "\00e62f"
+    content: "\00e948"
 }
 
 .icon-player-instantreplay:before {
-  content: "\00e630"
+    content: "\00e949"
 }
 
 .icon-player-less:before {
-  content: "\00e631"
+    content: "\00e94a"
 }
 
 .icon-player-more:before {
-  content: "\00e632"
+    content: "\00e94b"
 }
 
 .icon-player-mute:before {
-  content: "\00e633"
+    content: "\00e94c"
 }
 
 .icon-player-next:before {
-  content: "\00e634"
+    content: "\00e94d"
 }
 
 .icon-player-pause:before {
-  content: "\00e635"
+    content: "\00e94e"
 }
 
 .icon-player-play:before {
-  content: "\00e636"
+    content: "\00e94f"
 }
 
 .icon-player-prev:before {
-  content: "\00e637"
+    content: "\00e950"
 }
 
 .icon-player-replay:before {
-  content: "\00e638"
+    content: "\00e951"
 }
 
 .icon-player-rew:before {
-  content: "\00e639"
+    content: "\00e952"
 }
 
 .icon-player-settings:before {
-  content: "\00e63a"
+    content: "\00e953"
 }
 
 .icon-player-share:before {
-  content: "\00e63b"
+    content: "\00e954"
 }
 
 .icon-player-size-fullscreen:before {
-  content: "\00e63c"
+    content: "\00e955"
 }
 
 .icon-player-size-medium:before {
-  content: "\00e63d"
+    content: "\00e956"
 }
 
 .icon-player-size-minimize:before {
-  content: "\00e63e"
+    content: "\00e957"
 }
 
 .icon-player-stop:before {
-  content: "\00e63f"
+    content: "\00e958"
 }
 
 .icon-player-subtitles:before {
-  content: "\00e640"
+    content: "\00e959"
 }
 
 .icon-player-volume-45:before {
-  content: "\00e641"
+    content: "\00e95a"
 }
 
 .icon-player-volume-48:before {
-  content: "\00e642"
+    content: "\00e95b"
 }
 
 .icon-playlist:before {
-  content: "\00e643"
+    content: "\00e95c"
 }
 
 .icon-playstation-circle:before {
-  content: "\00e644"
+    content: "\00e95d"
 }
 
 .icon-playstation-square:before {
-  content: "\00e645"
+    content: "\00e95e"
 }
 
 .icon-playstation-triangle:before {
-  content: "\00e646"
+    content: "\00e95f"
 }
 
 .icon-playstation-x:before {
-  content: "\00e647"
+    content: "\00e960"
+}
+
+.icon-popular:before {
+    content: "\00e961"
 }
 
 .icon-privacy-link:before {
-  content: "\00e648"
+    content: "\00e962"
 }
 
 .icon-privacy-locked:before {
-  content: "\00e649"
+    content: "\00e963"
 }
 
 .icon-privacy-public:before {
-  content: "\00e64a"
+    content: "\00e964"
 }
 
 .icon-related:before {
-  content: "\00e64b"
+    content: "\00e965"
 }
 
 .icon-remoteque:before {
-  content: "\00e64c"
+    content: "\00e966"
 }
 
 .icon-reward:before {
-  content: "\00e64d"
+    content: "\00e967"
 }
 
 .icon-rocket:before {
-  content: "\00e64e"
+    content: "\00e968"
+}
+
+.icon-roku-back:before {
+    content: "\00e969"
 }
 
 .icon-search-clear:before {
-  content: "\00e64f"
+    content: "\00e96a"
+}
+
+.icon-search-keyboard:before {
+    content: "\00e96b"
 }
 
 .icon-search:before {
-  content: "\00e650"
+    content: "\00e96c"
+}
+
+.icon-settings-about-android:before {
+    content: "\00e96d"
+}
+
+.icon-settings-check:before {
+    content: "\00e96e"
 }
 
 .icon-settings-clear-cookies:before {
-  content: "\00e652"
+    content: "\00e96f"
 }
 
 .icon-settings-clear-history:before {
-  content: "\00e653"
+    content: "\00e970"
 }
 
 .icon-settings-feedback:before {
-  content: "\00e654"
+    content: "\00e971"
 }
 
 .icon-settings-help:before {
-  content: "\00e655"
+    content: "\00e972"
 }
 
 .icon-settings-pair:before {
-  content: "\00e656"
+    content: "\00e973"
 }
 
 .icon-settings-phone:before {
-  content: "\00e657"
+    content: "\00e974"
+}
+
+.icon-settings-signin-android:before {
+    content: "\00e975"
+}
+
+.icon-settings-signout-android:before {
+    content: "\00e976"
+}
+
+.icon-settings-stats-android:before {
+    content: "\00e977"
 }
 
 .icon-settings-term:before {
-  content: "\00e658"
+    content: "\00e978"
+}
+
+.icon-settings-uncheck:before {
+    content: "\00e979"
 }
 
 .icon-speechbubble:before {
-  content: "\00e65a"
+    content: "\00e97a"
 }
 
 .icon-sports:before {
-  content: "\00e65b"
+    content: "\00e97b"
 }
 
 .icon-star:before {
-  content: "\00e65c"
+    content: "\00e97c"
+}
+
+.icon-technology:before {
+    content: "\00e97d"
 }
 
 .icon-trash:before {
-  content: "\00e65d"
+    content: "\00e97e"
+}
+
+.icon-trending:before {
+    content: "\00e97f"
 }
 
 .icon-trends:before {
-  content: "\00e65e"
+    content: "\00e980"
 }
 
 .icon-tv-dpad:before {
-  content: "\00e65f"
+    content: "\00e981"
 }
 
 .icon-upload-arrow:before {
-  content: "\00e660"
+    content: "\00e982"
 }
 
 .icon-upload:before {
-  content: "\00e661"
+    content: "\00e983"
 }
 
 .icon-watch-later:before {
-  content: "\00e662"
+    content: "\00e984"
 }
 
 .icon-wii-1:before {
-  content: "\00e663"
+    content: "\00e985"
 }
 
 .icon-wii-2:before {
-  content: "\00e664"
+    content: "\00e986"
 }
 
 .icon-wii-A:before {
-  content: "\00e665"
+    content: "\00e987"
 }
 
 .icon-wii-B:before {
-  content: "\00e666"
+    content: "\00e988"
 }
 
 .icon-wii-minus:before {
-  content: "\00e667"
+    content: "\00e989"
 }
 
 .icon-wii-plus:before {
-  content: "\00e668"
+    content: "\00e98a"
 }
 
 .icon-wii-x:before {
-  content: "\00e669"
+    content: "\00e98b"
 }
 
 .icon-wii-y:before {
-  content: "\00e66a"
+    content: "\00e98c"
 }
 
 .icon-youtube-logo:before {
-  content: "\00e66b"
+    content: "\00e98d"
+}
+
+.icon-youtube-red-logo:before {
+    content: "\00e98e"
+}
+
+.icon-youtube-red-logo-short:before {
+    content: "\00e990"
+}
+
+.icon-ytk-logo-mid:before {
+    content: "\00e98f"
 }
 
 @font-face {
