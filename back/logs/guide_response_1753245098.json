@@ -1,0 +1,287 @@
+{
+  "responseContext": {
+    "visitorData": "Cgs2MjVrZGVZT2ttQSiqy4HEBjIKCgJVUxIEGgAgKg%3D%3D",
+    "serviceTrackingParams": [
+      {
+        "service": "GFEEDBACK",
+        "params": [
+          {
+            "key": "logged_in",
+            "value": "1"
+          },
+          {
+            "key": "e",
+            "value": "23804281,23943651,24004644,24077241,24108447,24166867,24290153,24545875,24566687,39328892,51010235,51025415,51063643,51089007,51098299,51115184,51125020,51152050,51160338,51174143,51183910,51193717,51204329,51222973,51227037,51237842,51242448,51303432,51313109,51313767,51340662,51342857,51349914,51353393,51366423,51372971,51375205,51386540,51389629,51404808,51404810,51404953,51414747,51432560,51437205,51443158,51447191,51452420,51456628,51459425,51460559,51466052,51466155,51467525,51471745,51472817,51476897,51477847,51478868,51483631,51484222,51487679,51489557,51489568,51490158,51490267,51490331,51491126,51494655,51500051,51505436,51505744,51506999,51509543,51509613,51509706,51510485,51510637,51510816,51511094,51512708,51516180,51516746,51519388,51519754,51520502,51521954,51524403,51526398,51526691,51526700,51528113,51529759,51529772,51530495,51530577,51532166,51532252,51535728,51536392,51536997,51537767,51537772,51537779,51538053,51538888,51539006,51539007,51539094,51540554,51541257,51541813,51541883,51541950,51542226,51544152,51544749,51545345,51546067,51549955"
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "guideSectionRenderer": {
+        "items": [
+          {
+            "guideEntryRenderer": {
+              "navigationEndpoint": {
+                "clickTrackingParams": "CAsQtSwYACITCKOLkvqS0o4DFWUi1gAdJ6MhTw==",
+                "searchEndpoint": {
+                  "query": ""
+                }
+              },
+              "icon": {
+                "iconType": "SEARCH"
+              },
+              "trackingParams": "CAsQtSwYACITCKOLkvqS0o4DFWUi1gAdJ6MhTw==",
+              "formattedTitle": {
+                "runs": [
+                  {
+                    "text": "Search"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "guideEntryRenderer": {
+              "navigationEndpoint": {
+                "clickTrackingParams": "CAoQtSwYASITCKOLkvqS0o4DFWUi1gAdJ6MhTw==",
+                "browseEndpoint": {
+                  "browseId": "home"
+                }
+              },
+              "icon": {
+                "iconType": "WHAT_TO_WATCH"
+              },
+              "trackingParams": "CAoQtSwYASITCKOLkvqS0o4DFWUi1gAdJ6MhTw==",
+              "formattedTitle": {
+                "runs": [
+                  {
+                    "text": "Home"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "guideEntryRenderer": {
+              "navigationEndpoint": {
+                "clickTrackingParams": "CAkQtSwYAiITCKOLkvqS0o4DFWUi1gAdJ6MhTw==",
+                "browseEndpoint": {
+                  "browseId": "FEtopics_music"
+                }
+              },
+              "trackingParams": "CAkQtSwYAiITCKOLkvqS0o4DFWUi1gAdJ6MhTw==",
+              "formattedTitle": {
+                "runs": [
+                  {
+                    "text": "Music"
+                  }
+                ]
+              },
+              "icon": {
+                "iconType": "MUSIC"
+              }
+            }
+          },
+          {
+            "guideEntryRenderer": {
+              "navigationEndpoint": {
+                "clickTrackingParams": "CAgQnOQDGAMiEwiji5L6ktKOAxVlItYAHSejIU8=",
+                "browseEndpoint": {
+                  "browseId": "FEtopics_movies"
+                }
+              },
+              "trackingParams": "CAgQnOQDGAMiEwiji5L6ktKOAxVlItYAHSejIU8=",
+              "formattedTitle": {
+                "runs": [
+                  {
+                    "text": "Movies & TV"
+                  }
+                ]
+              },
+              "icon": {
+                "iconType": "FILM"
+              }
+            }
+          },
+          {
+            "guideEntryRenderer": {
+              "navigationEndpoint": {
+                "clickTrackingParams": "CAcQtSwYBCITCKOLkvqS0o4DFWUi1gAdJ6MhTw==",
+                "browseEndpoint": {
+                  "browseId": "FEtopics_gaming"
+                }
+              },
+              "trackingParams": "CAcQtSwYBCITCKOLkvqS0o4DFWUi1gAdJ6MhTw==",
+              "formattedTitle": {
+                "runs": [
+                  {
+                    "text": "Gaming"
+                  }
+                ]
+              },
+              "icon": {
+                "iconType": "GAMING"
+              }
+            }
+          },
+          {
+            "guideEntryRenderer": {
+              "navigationEndpoint": {
+                "clickTrackingParams": "CAYQtSwYBSITCKOLkvqS0o4DFWUi1gAdJ6MhTw==",
+                "browseEndpoint": {
+                  "browseId": "FEsubscriptions"
+                }
+              },
+              "icon": {
+                "iconType": "SUBSCRIPTIONS"
+              },
+              "trackingParams": "CAYQtSwYBSITCKOLkvqS0o4DFWUi1gAdJ6MhTw==",
+              "formattedTitle": {
+                "runs": [
+                  {
+                    "text": "Subscriptions"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "guideEntryRenderer": {
+              "navigationEndpoint": {
+                "clickTrackingParams": "CAUQtSwYBiITCKOLkvqS0o4DFWUi1gAdJ6MhTw==",
+                "browseEndpoint": {
+                  "browseId": "FElibrary"
+                }
+              },
+              "icon": {
+                "iconType": "WATCH_HISTORY"
+              },
+              "trackingParams": "CAUQtSwYBiITCKOLkvqS0o4DFWUi1gAdJ6MhTw==",
+              "formattedTitle": {
+                "runs": [
+                  {
+                    "text": "History"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "guideEntryRenderer": {
+              "navigationEndpoint": {
+                "clickTrackingParams": "CAIQtSwYACITCLSowKe7jIsDFZDMFgkdakQqlg==",
+                "applicationSettingsEndpoint": {
+                  "hack": false
+                }
+              },
+              "icon": {
+                "iconType": "SETTINGS"
+              },
+              "trackingParams": "CAIQtSwYACITCLSowKe7jIsDFZDMFgkdakQqlg==",
+              "formattedTitle": {
+                "runs": [
+                  {
+                    "text": "Settings"
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "trackingParams": "CAMQ5isYASITCKOLkvqS0o4DFWUi1gAdJ6MhTw=="
+      }
+    }
+  ],
+  "trackingParams": "CAAQumkiEwiji5L6ktKOAxVlItYAHSejIU8=",
+  "footer": {
+    "guideSectionRenderer": {
+      "items": [
+        {
+          "guideEntryRenderer": {
+            "navigationEndpoint": {
+              "clickTrackingParams": "CAIQtSwYACITCKOLkvqS0o4DFWUi1gAdJ6MhTw==",
+              "applicationSettingsEndpoint": {
+                "hack": true
+              }
+            },
+            "icon": {
+              "iconType": "SETTINGS"
+            },
+            "trackingParams": "CAIQtSwYACITCKOLkvqS0o4DFWUi1gAdJ6MhTw==",
+            "formattedTitle": {
+              "runs": [
+                {
+                  "text": "Settings"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "trackingParams": "CAEQ5isiEwiji5L6ktKOAxVlItYAHSejIU8="
+    }
+  },
+  "stuff": [
+    {
+      "items": [
+        {
+          "guideAccountEntryRenderer": {
+            "title": {
+              "runs": [
+                {
+                  "text": "Mals Offical 2017"
+                }
+              ],
+              "accessibility": {
+                "accessibilityData": {
+                  "label": "Account"
+                }
+              }
+            },
+            "thumbnail": {
+              "thumbnails": [
+                {
+                  "url": "https://yt3.ggpht.com/GZ3We7vhr6_Sjc3BgF2o2YZrGMxoFtgrtan0mEJxwt5PHjtDywNfKEgJ_jYrcJhCKIhT-hJo=s88-c-k-c0x00ffffff-no-rj",
+                  "width": 88,
+                  "height": 88
+                }
+              ]
+            },
+            "navigationEndpoint": {
+              "clickTrackingParams": "CA0QtSwYACITCKOLkvqS0o4DFWUi1gAdJ6MhTw==",
+              "signalNavigationEndpoint": {
+                "signal": "ACCOUNT_SETTINGS"
+              }
+            },
+            "hasUnlimitedEntitlement": true,
+            "trackingParams": "CA0QtSwYACITCKOLkvqS0o4DFWUi1gAdJ6MhTw=="
+          }
+        },
+        {
+          "guideEntryRenderer": {
+            "navigationEndpoint": {
+              "clickTrackingParams": "CAIQtSwYACITCLSowKe7jIsDFZDMFgkdakQqlg==",
+              "applicationSettingsEndpoint": {
+                "hack": false
+              }
+            },
+            "icon": {
+              "iconType": "SETTINGS"
+            },
+            "trackingParams": "CAIQtSwYACITCLSowKe7jIsDFZDMFgkdakQqlg==",
+            "formattedTitle": {
+              "runs": [
+                {
+                  "text": "Settings"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "trackingParams": "CAwQ5isYACITCKOLkvqS0o4DFWUi1gAdJ6MhTw=="
+    }
+  ]
+}
