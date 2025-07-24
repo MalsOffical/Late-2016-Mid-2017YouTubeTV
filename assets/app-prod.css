@@ -8679,461 +8679,594 @@ h3.call-to-cast-text {
 }
 
 #guide {
-  box-shadow: .1em 0 1em 0em black;
-  height: 100%;
-  left: 0;
-  overflow: hidden;
-  position: absolute;
-  -o-transform: translateX(-23em);
-  -webkit-transform: translateX(-23em) translateZ(0);
-  transform: translateX(-23em) translateZ(0);
-  -o-transition: -o-transform 400ms cubic-bezier(0.4, 0.0, 0.2, 1);
-  -webkit-transition: -webkit-transform 400ms cubic-bezier(0.4, 0.0, 0.2, 1);
-  transition: transform 400ms cubic-bezier(0.4, 0.0, 0.2, 1);
-  width: 28em
+    box-shadow: .1em 0 1em 0em black;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    -o-transform: translateX(-23em);
+    -webkit-transform: translateX(-23em) translateZ(0);
+    transform: translateX(-23em) translateZ(0);
+    -o-transition: -o-transform 400ms cubic-bezier(0.4,0.0,0.2,1);
+    -webkit-transition: -webkit-transform 400ms cubic-bezier(0.4,0.0,0.2,1);
+    transition: transform 400ms cubic-bezier(0.4,0.0,0.2,1);
+    width: 28em
 }
 
 .limited-memory.limited-animation #guide {
-  box-shadow: none;
-  pointer-events: none;
-  -o-transform: none;
-  -webkit-transform: none;
-  transform: none
+    box-shadow: none;
+    pointer-events: none;
+    -o-transform: none;
+    -webkit-transform: none;
+    transform: none
 }
 
-.limited-memory #guide.focused {
-  border-right: none;
-  pointer-events: auto
+.limited-memory #guide.open {
+    border-right: none;
+    pointer-events: auto
 }
 
-#guide.focused {
-  -o-transform: translateX(0);
-  -webkit-transform: translateX(0);
-  transform: translateX(0)
+#guide.open {
+    -o-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0)
 }
 
 #guide:hover {
-  background-color: rgba(255, 255, 255, .2)
+    background-color: rgba(255,255,255,.2)
 }
 
 .limited-animation #guide:hover {
-  background: none
+    background: none
 }
 
-.limited-animation #guide,
-.limited-animation #guide #user-info-background,
-.limited-animation .guide-carousel-background {
-  -o-transition: none;
-  -webkit-transition: none;
-  transition: none
+.limited-animation #guide,.limited-animation #guide .user-info-background,.limited-animation #guide .user-info-container,.limited-animation #guide .sign-in-header {
+    -ms-transition: none;
+    -o-transition: none;
+    -webkit-transition: none;
+    transition: none
 }
 
-.guide-carousel-background {
-  background-color: rgba(0, 0, 0, .2);
-  height: 100%;
-  left: 0em;
-  position: absolute;
-  top: 0em;
-  width: 100%;
-  -o-transition: background-color 400ms;
-  -webkit-transition: background-color 400ms;
-  transition: background-color 400ms
+.limited-animation #guide .collapsed-guide {
+    background-color: #242424
 }
 
-.limited-animation .guide-carousel-background,
-.limited-animation #guide #user-info-background {
-  background-color: #1f2426
+.limited-memory #guide .user-info-background,#guide .list {
+    display: none
 }
 
-.limited-animation #guide:hover .guide-carousel-background,
-.limited-animation #guide:hover #user-info-background {
-  background-color: #384145
+.limited-memory #guide.open.logged-in .user-info-background,#guide.open .list,#guide.focused .list {
+    display: block
 }
 
-.limited-animation.limited-memory .guide-carousel-background,
-.limited-animation.limited-memory #guide #user-info-background {
-  background-color: #df2323
-}
-
-.limited-memory .guide-carousel-background,
-.limited-memory #guide #user-info-background,
-#guide .list {
-  display: none
-}
-
-.limited-memory #guide.focused .guide-carousel-background,
-.limited-memory #guide.focused.logged-in #user-info-background,
-#guide.focused .list {
-  display: block
-}
-
-.logged-in .guide-carousel-background {
-  top: 8.5em
-}
-
-#guide.focused .guide-carousel-background,
-#guide.focused:hover .guide-carousel-background {
-  background-color: #df2323
-}
-
-.collapsed-guide,
-#guide.focused .collapsed-guide {
-  display: none
-}
-
-.collapsed-guide-icons {
-  color: #85888a;
-  font-size: 1.6em;
-  left: 15em;
-  opacity: 1;
-  position: absolute;
-  top: 7.5em
-}
-
-.collapsed-guide-icon {
-  font-family: 'youtube-icons';
-  margin-top: 1em;
-  margin-bottom: 1em;
-  text-align: center;
-  width: 2em
-}
-
-#guide .collapsed-guide-icons {
-  -o-transition: opacity 150ms 450ms;
-  -webkit-transition: opacity 150ms 450ms;
-  transition: opacity 150ms 450ms
-}
-
-.limited-memory .collapsed-guide-icons {
-  left: 1em
-}
-
-.limited-animation #guide .collapsed-guide-icons {
-  -o-transition: none;
-  -webkit-transition: none;
-  transition: none
-}
-
-#guide.focused .collapsed-guide-icons {
-  opacity: 0;
-  -o-transition: none;
-  -webkit-transition: none;
-  transition: none
-}
-
-#guide .collapsed-guide-icon.icon-guide-my-subs {
-  display: none
-}
-
-#guide.logged-in .collapsed-guide-icon.icon-guide-my-subs {
-  display: block
-}
-
-#guide.logged-in .collapsed-guide-icon.icon-popular {
-  display: none
-}
-
-.collapsed-guide-icon.icon-music {
-  font-size: .925em;
-  padding-left: .0375em
+.limited-animation .collapsed-guide,.limited-memory .collapsed-guide {
+    height: 100%;
+    width: 6em
 }
 
 .limited-memory .collapsed-guide {
-  background-color: #1f2426;
-  border-right: .2em solid #111;
-  display: block;
-  height: 100%;
-  left: 0;
-  pointer-events: auto;
-  width: 6em
+    border-right: .125em solid #000;
+    display: block;
+    pointer-events: auto;
+    position: absolute;
+    top: 0
+}
+
+#guide.open .collapsed-guide {
+    display: none
+}
+
+.collapsed-guide-icons {
+    color: #85888a;
+    font-size: 1.6em;
+    left: 15em;
+    position: absolute;
+    top: 7.5em
+}
+
+.high-contrast .collapsed-guide-icons {
+    color: #909090
+}
+
+.limited-memory .collapsed-guide-icons {
+    color: #808080;
+    left: 1em
+}
+
+.collapsed-guide-icon {
+    font-family: 'youtube-icons';
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    width: 2em
+}
+
+.guide-user-avatar-preview {
+    left: 23.6em;
+    position: absolute;
+    top: 2.7em;
+    visibility: hidden
+}
+
+.guide-user-avatar-preview {
+    visibility: visible
+}
+
+.limited-memory .guide-user-avatar-preview,.limited-memory .sign-in-header-collapsed {
+    left: 1.2em
+}
+
+.guide-user-avatar-preview .guide-user-avatar {
+    box-shadow: none
+}
+
+.sign-in-header-collapsed {
+    left: 23.6em;
+    position: absolute;
+    top: 2.7em
+}
+
+.sign-in-header-collapsed .sign-in-icon {
+    color: #85888a
+}
+
+#guide.open .sign-in-header-collapsed {
+    visibility: hidden
+}
+
+#guide .collapsed-guide-icons {
+    -ms-transition: opacity 150ms 450ms;
+    -o-transition: opacity 150ms 450ms;
+    -webkit-transition: opacity 150ms 450ms;
+    transition: opacity 150ms 450ms
+}
+
+#guide.open .collapsed-guide-icons {
+    opacity: 0;
+    -ms-transition: none;
+    -o-transition: none;
+    -webkit-transition: none;
+    transition: none
+}
+
+.limited-animation #guide .collapsed-guide-icons,.limited-animation #guide.open .collapsed-guide-icons {
+    -ms-transition: none;
+    -o-transition: none;
+    -webkit-transition: none;
+    transition: none
+}
+
+#guide .collapsed-guide-icon.icon-guide-my-subs {
+    display: none
+}
+
+#guide.logged-in .collapsed-guide-icon.icon-guide-my-subs {
+    display: block
+}
+
+#guide.logged-in .collapsed-guide-icon.icon-people {
+    display: none
+}
+
+.collapsed-guide-icon.icon-music {
+    font-size: .925em;
+    padding-left: .0375em
 }
 
 #error-message {
-  display: none
+    display: none
 }
 
-#guide.error.focused #error-message {
-  color: #fff;
-  display: block;
-  font-size: 2em;
-  padding: 2em;
-  position: absolute;
-  text-align: center;
-  top: 12em
+#guide.error.open #error-message {
+    color: #fff;
+    display: block;
+    font-size: 2em;
+    padding: 2em;
+    position: absolute;
+    text-align: center;
+    top: 12em
 }
 
 #guide .sliding-highlighter {
-  box-shadow: none;
-  display: none;
-  width: 100%;
-  height: 4.2em;
-  opacity: 0
+    box-shadow: none;
+    display: none;
+    width: 100%;
+    height: 4.2em;
+    opacity: 0
 }
 
 #guide.focused .sliding-highlighter {
-  opacity: 1
+    display: block;
+    opacity: 1
 }
 
-#guide.focused .sliding-highlighter {
-  display: block
+#guide.open .user-info-background {
+    visibility: visible
 }
 
-#guide.focused #user-info-background {
-  visibility: visible
+#guide.open .sign-in-header,#guide.open .user-info-background,#guide.open:hover .user-info-background {
+    background-color: #931717
 }
 
-#guide #user-info-background {
-  background-color: rgba(0, 0, 0, .2);
-  -o-transition: background-color 400ms;
-  -webkit-transition: background-color 400ms;
-  transition: background-color 400ms
+.logged-in .user-info-background {
+    display: block
 }
 
-#guide.focused #user-info-background,
-#guide.focused:hover #user-info-background {
-  background-color: #931717
+#guide.open .guide-user-text,#guide.open .sign-in-header-container {
+    visibility: visible
 }
 
-.logged-in #user-info-background {
-  display: block
+#guide.open .guide-user-name .name {
+    display: inline-block;
+    max-width: 10em;
+    overflow: hidden;
+    padding-bottom: 0.1em;
+    text-overflow: ellipsis;
+    vertical-align: middle
 }
 
-#guide.focused .guide-user-text {
-  visibility: visible
+#guide.open .active-account-header.supports-account-switching .guide-user-name .caret {
+    display: inline-block;
+    vertical-align: middle
 }
 
-#guide.focused .guide-user-name {
-  overflow: hidden;
-  text-overflow: ellipsis
+#guide.open .active-account-header.supports-account-switching .guide-user-name .caret:after {
+    border-left: 0.3em solid transparent;
+    border-right: 0.3em solid transparent;
+    border-top: 0.3em solid #fff;
+    content: '';
+    margin-left: 0.3em;
+    position: relative;
+    top: 0.7em
 }
 
-#guide .carousel,
-#guide .list,
-#guide .sliding-highlighter {
-  color: #fff;
-  margin-top: 2em
+#guide.open .active-account-header.focused .guide-user-name .caret:after {
+    border-top-color: #df2323
 }
 
-#guide.logged-in .carousel,
-#guide.logged-in .list,
-#guide.logged-in .sliding-highlighter {
-  margin-top: 1em
+#guide .carousel,#guide .list,#guide .sliding-highlighter {
+    color: #fff;
+    margin-top: 2em
 }
 
-#guide .carousel.hidden {
-  display: block !important;
-  visibility: hidden
+#guide.logged-in .carousel,#guide.logged-in .list,#guide.logged-in .sliding-highlighter {
+    margin-top: 1em
+}
+
+#guide .carousel {
+    visibility: hidden
+}
+
+#guide.open .carousel,#guide.focused .carousel {
+    visibility: visible
 }
 
 #guide .list {
-  position: relative
+    position: relative
 }
 
 .carousel .guide-button {
-  position: absolute
+    position: absolute
 }
 
 .list .guide-button {
-  margin-bottom: .1em
+    margin-bottom: .1em
 }
 
 .guide-button {
-  font-size: 1.6em;
-  height: 1.83em;
-  overflow: hidden;
-  padding: .5em .27em .3em 2.9em;
-  white-space: nowrap
+    font-size: 1.6em;
+    height: 1.83em;
+    overflow: hidden;
+    padding: .5em .27em .3em 2.9em;
+    white-space: nowrap
 }
 
 .guide-button:hover {
-  background: #900;
-  cursor: pointer;
-  padding-right: 1.78em
+    background: #900;
+    cursor: pointer;
+    padding-right: 1.78em
 }
 
 .guide-button.selected:hover {
-  background: transparent
+    background: transparent
 }
 
 .guide-button.disabled:hover {
-  background: transparent;
-  cursor: inherit;
-  padding-right: inherit
+    background: transparent;
+    cursor: inherit;
+    padding-right: inherit
 }
 
 .guide-button.disabled {
-  padding-left: 2.1em;
-  text-transform: uppercase
+    padding-left: 2.1em;
+    text-transform: uppercase
 }
 
 .guide-button.disabled.footer {
-  text-transform: none
+    text-transform: none
 }
 
 .guide-button-icon {
-  color: #ef9191;
-  display: inline-block;
-  font-family: 'youtube-icons';
-  font-size: 1.2em;
-  margin-top: .2em;
-  text-align: center;
-  width: 1.8em
+    color: #ef9191;
+    display: inline-block;
+    font-family: 'youtube-icons';
+    font-size: 1.2em;
+    margin-top: .2em;
+    text-align: center;
+    width: 1.8em
+}
+
+.high-contrast .guide-button-icon {
+    color: #e1e1e1
 }
 
 .guide-button-icon .image.preloaded {
-  background-color: #252525
+    background-color: #252525
 }
 
 .guide-button.disabled .guide-button-icon {
-  display: none
+    display: none
 }
 
-.guide-user-text,
-.guide-button-title {
-  color: #fbdada;
-  display: inline-block;
-  line-height: 1.7em;
-  overflow: hidden;
-  padding-left: .5em;
-  text-overflow: ellipsis;
-  vertical-align: top
+.guide-button-title,.guide-user-text,.sign-in-header-container {
+    color: #fbdada;
+    display: inline-block;
+    line-height: 1.7em;
+    overflow: hidden;
+    padding-left: .5em;
+    text-overflow: ellipsis;
+    vertical-align: top
+}
+
+.high-contrast .guide-button-title,.high-contrast .guide-user-text,.high-contrast .sign-in-header-container {
+    color: #e1e1e1
 }
 
 .guide-button.disabled .guide-button-title {
-  color: #ef9191
+    color: #ef9191
 }
 
 .guide-user-text {
-  visibility: hidden;
-  margin-left: -0.4em;
-  position: relative;
-  top: 30%;
-  text-overflow: ellipsis;
-  width: 9.5em
+    position: relative;
+    top: 30%
+}
+
+.guide-user-text,.sign-in-header-container {
+    visibility: hidden;
+    margin-left: -0.4em;
+    text-overflow: ellipsis
 }
 
 .guide-button-title {
-  width: 11em
+    width: 11em
 }
 
 .engaged .guide-button-title {
-  width: 8em
+    width: 8em
 }
 
-.guide-button.footer .guide-button-title {
-  font-size: 75%;
-  padding-top: .8em;
-  width: 21.15em
+.guide-button.footer .guide-button-title,.guide .new-list-container .guide-button.footer .guide-button-title {
+    font-size: 1.4em;
+    line-height: normal;
+    margin-left: 1em;
+    padding-top: .8em;
+    width: 21.15em
 }
 
-.guide-button-icon .image,
-#guide-user-avatar {
-  background: no-repeat center;
-  background-size: 100%;
-  height: 1em;
-  width: 1em
+.guide-button-icon .image,.guide-user-avatar {
+    background: no-repeat center;
+    background-size: 100%;
+    height: 1em;
+    width: 1em
 }
 
 .guide-button-icon .image {
-  background-color: #fff;
-  border-radius: 50%;
-  box-shadow: 0 0 0 1px #ef9191;
-  margin: 0 .4em 0 .4em
-}
-
-.xbox360 .guide-button-icon .image,
-.xboxone .guide-button-icon .image {
-  border-radius: initial
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px #ef9191;
+    margin: 0 .4em 0 .4em
 }
 
 .guide-button.focused .guide-button-icon .image {
-  box-shadow: none
+    box-shadow: none
 }
 
 .guide-button .image {
-  display: none
+    display: none
 }
 
 .guide-button.has-image .image {
-  display: block
+    display: block
 }
 
-#guide-user-avatar {
-  border-radius: 50%;
-  box-shadow: 0 0 0 .05em rgba(239, 145, 145, .4), 0 0 .05em #ef9191;
-  display: inline-block;
-  font-size: 2.31em;
-  margin: .2em .2em .2em .4em
+.guide-user-avatar {
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 2.31em;
+    margin: .2em .2em .2em .4em
 }
 
-#guide-user-avatar,
-.guide-user-text,
-.guide-button-icon,
-.guide-button-title {
-  -o-transition: color 50ms;
-  -webkit-transition: color 50ms;
-  transition: color 50ms;
-  transition-delay: 25ms
+.no-transition .guide-button .guide-button-icon,.no-transition .guide-button .guide-button-title,.limited-animation .guide-button .guide-button-icon,.limited-animation .guide-button .guide-button-title,.limited-animation .guide-user-avatar,.limited-animation .guide-user-text {
+    -ms-transition: none;
+    -o-transition: none;
+    -webkit-transition: none;
+    transition: none
 }
 
-.no-transition .guide-button .guide-button-icon,
-.no-transition .guide-button .guide-button-title,
-.limited-animation .guide-button .guide-button-icon,
-.limited-animation .guide-button .guide-button-title,
-.limited-animation #guide-user-avatar,
-.limited-animation .guide-user-text {
-  -o-transition: none;
-  -webkit-transition: none;
-  transition: none
-}
-
-.guide-button.focused .guide-button-icon,
-.guide-button.focused .guide-button-title {
-  color: #df2323
+.guide-button.focused .guide-button-icon,.guide-button.focused .guide-button-title {
+    color: #df2323
 }
 
 .limited-animation .guide-button.focused {
-  background-color: #fff
+    background-color: #fff
 }
 
 .user-info-container {
-  height: 2.6em;
-  padding: 1.1em 0em 0em 1.8em;
-  font-size: 1.6em;
-  white-space: nowrap
+    height: 2.6em;
+    padding: 1.1em 0em 0em 1.8em;
+    font-size: 1.6em;
+    white-space: nowrap;
+    opacity: 0;
+    -ms-transition: opacity 400ms;
+    -o-transition: opacity 400ms;
+    -webkit-transition: opacity 400ms;
+    transition: opacity 400ms
 }
 
-#user-info-background {
-  display: none;
-  height: 8.53em;
-  position: relative;
-  width: inherit;
-  z-index: 1
+.sign-in-header-container {
+    font-size: 1.6em;
+    padding-left: 2.4em;
+    padding-top: 1.5em
+}
+
+.sign-in-icon,.sign-in-text {
+    display: inline-block
+}
+
+.sign-in-icon {
+    font-size: 2.2em
+}
+
+.sign-in-text {
+    bottom: .6em;
+    position: relative;
+    right: .35em
+}
+
+#guide.open .sign-in-header,.user-info-background {
+    height: 8.53em;
+    position: relative;
+    width: inherit;
+    z-index: 1
+}
+
+.user-info-background {
+    display: none;
+    -ms-transition: background-color 400ms;
+    -o-transition: background-color 400ms;
+    -webkit-transition: background-color 400ms;
+    transition: background-color 400ms
+}
+
+#guide.open .user-info-container {
+    opacity: 1
+}
+
+#guide.open .active-account-header.focused .user-info-background,#guide.open .sign-in-header.focused {
+    background-color: #fff
+}
+
+#guide.open .active-account-header.focused .guide-user-text,#guide.open .sign-in-header.focused .sign-in-header-container {
+    color: #df2323
 }
 
 .sliding-highlighter .select {
-  background-color: rgba(0, 0, 0, 0.8);
-  display: none;
-  height: 2.9em;
-  min-width: 3.5em;
-  padding: 1.3em 0.6em 0em 0.6em;
-  position: absolute;
-  right: 0;
-  text-align: center
+    background-color: rgba(0,0,0,0.8);
+    display: none;
+    height: 2.9em;
+    min-width: 3.5em;
+    padding: 1.3em 0.6em 0em 0.6em;
+    position: absolute;
+    right: 0;
+    text-align: center
 }
 
 .engaged .guide .sliding-highlighter .select {
-  display: block
+    display: block
 }
 
 .unlimited .guide-user-text {
-  line-height: 1.0em
+    line-height: 1.0em;
+    top: 25%
 }
 
 .guide-user-unlimited {
-  font-size: 0.8em;
-  color: #a88;
-  text-transform: uppercase
+    color: #bc7171;
+    font-size: 0.8em;
+    text-transform: uppercase
+}
+
+.guide .new-list-container>div {
+    visibility: hidden
+}
+
+.guide.open .new-list-container>div,.guide.focused .new-list-container>div {
+    visibility: visible
+}
+
+.guide .new-list-container .guide-button {
+    font-size: 1em;
+    height: 4em;
+    padding: 0;
+    width: 100%
+}
+
+.guide .new-list-container .guide-button .guide-button-icon {
+    font-size: 1.92em;
+    margin-top: .6em;
+    margin-left: 2.4em
+}
+
+.guide .new-list-container .guide-button .guide-button-title {
+    font-size: 1.7em;
+    margin-top: .4em
+}
+
+.guide .new-list-container .guide-button.disabled .guide-button-title {
+    margin-left: 2em
+}
+
+.guide.closed .is-limited .new-list-container {
+    display: none
+}
+
+.new-list-container .guide-button.focused .guide-button-icon .image {
+    box-shadow: none
+}
+
+.new-list-container .guide-button.focused .guide-button-icon .new-list-container .guide-button.focused .guide-button-title,.sign-in-header.focused .guide-button-icon {
+    color: #df2323
+}
+
+.limited-list .new-list-container .guide-button.focused {
+    background-color: #fff
+}
+
+.limited-list .new-list-container .guide-button .guide-button-icon,.limited-list .new-list-container .guide-button .guide-button-title {
+    transition: none
+}
+
+.guide .guide-background {
+    background-color: #1e1e1e;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    -ms-transition: background-color 400ms;
+    -o-transition: background-color 400ms;
+    -webkit-transition: background-color 400ms;
+    transition: background-color 400ms
+}
+
+.high-contrast .closed.guide .guide-background {
+    background-color: #242424
+}
+
+.guide.open .guide-background,.guide.open:hover .guide-background,.limited-animation .guide.open .guide-list {
+    background-color: #df2323
+}
+
+.high-contrast .guide.open .guide-background,.high-contrast .guide.open:hover .guide-background,.limited-animation .high-contrast .guide.open .guide-list {
+    background-color: #b31712
+}
+
+.limited-animation .guide .guide-background {
+    display: none
+}
+
+.limited-animation:not(.limited-memory) .high-contrast .guide .guide-background {
+    display: block
 }
 
 #settings {
