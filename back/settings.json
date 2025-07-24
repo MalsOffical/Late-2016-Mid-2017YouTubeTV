@@ -1,4 +1,4 @@
 {
-    "serverIp": "192.168.12.88",
+    "serverIp": "localhost",
     "expBrowse": true
 }
