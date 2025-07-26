@@ -153,6 +153,7 @@ Client V4 (https://web.archive.org/web/20140517113435/https://www.youtube.com/tv
 What Will Never Happen are clients that fully use GDATA, now there's a chance I may support client V4 as that uses innertube for search and stuff, but not fully GDATA ones. Just use YT2009 at that point!
 
 Other
+
 Newer icons for guide
 
 (Maybe) tweak player a TINY bit
@@ -164,3 +165,5 @@ OG Other - Support other versions of YouTube TV
 Other languages
 
 Fix grammar
+
+Enjoy!
