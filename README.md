@@ -153,15 +153,13 @@ Client V4 (https://web.archive.org/web/20140517113435/https://www.youtube.com/tv
 What Will Never Happen are clients that fully use GDATA, now there's a chance I may support client V4 as that uses innertube for search and stuff, but not fully GDATA ones. Just use YT2009 at that point!
 
 Other
--̶ ̶G̶e̶t̶ ̶i̶t̶ ̶t̶o̶ ̶l̶o̶a̶d̶ ̶t̶h̶e̶ ̶b̶a̶c̶k̶g̶r̶o̶u̶n̶d̶ ̶o̶n̶ ̶h̶o̶m̶e̶s̶c̶r̶e̶e̶n̶.̶
+Newer icons for guide
 
-̶-̶ ̶M̶a̶k̶e̶ ̶l̶i̶v̶e̶.̶j̶s̶ ̶w̶o̶r̶k̶ ̶b̶e̶t̶t̶e̶r̶ ̶(̶i̶t̶ ̶s̶o̶m̶e̶t̶i̶m̶e̶s̶ ̶c̶a̶u̶s̶e̶s̶ ̶i̶s̶s̶u̶e̶s̶ ̶w̶i̶t̶h̶ ̶t̶h̶e̶ ̶g̶u̶i̶d̶e̶,̶ ̶h̶o̶w̶e̶v̶e̶r̶ ̶i̶t̶ ̶i̶s̶n̶'̶t̶ ̶t̶h̶e̶ ̶g̶u̶i̶d̶e̶s̶ ̶f̶a̶u̶l̶t̶.̶)̶
+(Maybe) tweak player a TINY bit
 
--̶ ̶F̶i̶x̶ ̶o̶l̶d̶e̶r̶ ̶b̶r̶o̶w̶s̶e̶r̶ ̶s̶u̶p̶p̶o̶r̶t̶,̶ ̶r̶i̶g̶h̶t̶ ̶n̶o̶w̶ ̶w̶e̶ ̶u̶s̶e̶ ̶s̶o̶m̶e̶ ̶t̶h̶i̶n̶g̶ ̶f̶r̶o̶m̶ ̶E̶C̶M̶A̶S̶c̶r̶i̶p̶t̶ ̶6̶ ̶a̶n̶d̶ ̶7̶,̶ ̶l̶i̶k̶e̶ ̶l̶e̶t̶ ̶a̶n̶d̶ ̶f̶e̶t̶c̶h̶ ̶I̶ ̶a̶m̶ ̶w̶o̶r̶k̶i̶n̶g̶ ̶o̶n̶ ̶s̶u̶p̶p̶o̶r̶t̶i̶n̶g̶ ̶b̶r̶o̶w̶s̶e̶r̶ ̶t̶h̶e̶ ̶o̶f̶f̶i̶c̶a̶l̶ ̶c̶l̶i̶e̶n̶t̶ ̶w̶o̶u̶l̶d̶.̶
+(Sure i will do this) change icon/icons on SERACH.
 
-̶-̶ ̶M̶a̶k̶e̶ ̶i̶t̶ ̶s̶o̶ ̶y̶o̶u̶ ̶c̶a̶n̶ ̶u̶s̶e̶ ̶a̶n̶ ̶I̶P̶ ̶a̶d̶r̶e̶s̶s̶ ̶r̶a̶t̶h̶e̶r̶ ̶t̶h̶a̶n̶ ̶l̶o̶c̶a̶l̶h̶o̶s̶t̶:̶8̶0̶9̶0̶ ̶s̶o̶ ̶y̶o̶u̶ ̶c̶a̶n̶ ̶u̶s̶e̶ ̶i̶t̶ ̶o̶n̶ ̶a̶ ̶r̶e̶a̶l̶ ̶T̶V̶ ̶o̶r̶ ̶s̶o̶m̶e̶t̶h̶i̶n̶g̶.̶
-
-Support other versions of YouTube TV
+OG Other - Support other versions of YouTube TV
 
 Other languages
 
