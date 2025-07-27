@@ -25,7 +25,7 @@ Also follow THIS guide if you close cmd and want to go on this project:
 WARNING: do NOT close "CMD", or else it will be "RESTART TIME!"
 
 1. go to downloads in file explorer and open "2016-2017YouTubeTV-main"
-2.copy file path and open "CMD" them paste it in.
+2.copy file path and open "CMD", type "cd " then paste it in.
 3.press enter, then type "npm start" and press enter.
 4.wait to finish then go to "http://you.re.web.link:8090"
 5.Enjoy!
