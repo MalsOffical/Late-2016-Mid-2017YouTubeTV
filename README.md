@@ -2,6 +2,18 @@ Late 2016-Early 2017YouTubeTV
 
 A project to revive the old Late-2016(console)Early-2017 YouTube TV HTML5 Web App. Project used to make this: https://github.com/theDSi2homebrewGuy/2016YoutubeTVplus/
 
+## Screenshots
+
+**[Note These Are As Of The 30th Of July At 10:01 EST, Things May Have Changed]**
+
+![Screenshot 1](screenshots/s1.png)
+![Screenshot 2](screenshots/s2.png)
+![Screenshot 3](screenshots/s3.png)
+![Screenshot 4](screenshots/s4.png)
+![Screenshot 5](screenshots/s5.png)
+![Screenshot 6](screenshots/s6.png)
+![Screenshot 7](screenshots/s7.png)
+
 My instance (need to fix not getting past the YT splash screen):
 
 https://malsoffical.github.io/Late-2016-Mid-2017YouTubeTV/
